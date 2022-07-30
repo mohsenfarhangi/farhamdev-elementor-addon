@@ -1,0 +1,29 @@
+.swps-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21212126;
+    backdrop-filter: blur(1px);
+    animation-name: "loader-animate";
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loader-animate {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.swps-loader img {
+    width: 100px;
+}
