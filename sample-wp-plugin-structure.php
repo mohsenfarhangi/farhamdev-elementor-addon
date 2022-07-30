@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: File print cost calculator
+ * Plugin Name: sample wp plugin structure
  * Plugin URI:
- * Description: محاسبه کننده هزینه پرینت فایل
+ * Description: sample wordpress plugin folder structure
  * Author: Mohsen Farhangi
  * Author URI: http://Farhamdev.ir
  * Text Domain: swsplang
